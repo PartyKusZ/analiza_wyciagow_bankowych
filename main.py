@@ -4,7 +4,7 @@ total = 0
 inicjaly = []
 imiona_nazwiska = []
 kwota = []
-with open("Lista_operacji_20220623_235550.csv","r") as plik:
+with open("Lista_operacji_20220624_111319.csv","r") as plik:
     plik_csv = csv.DictReader(plik, delimiter=";")
     
     for row in plik_csv:
